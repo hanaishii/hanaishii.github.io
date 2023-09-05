@@ -29,8 +29,8 @@
   <!-- front-matter head_begin end -->
     <link rel="shortcut icon" type='image/x-icon' href="https://s3.bmp.ovh/imgs/2023/08/28/bf8450caf1204a03.jpg">
   <link rel="preload" href="/css/style.css" as="style">
-  <link rel="preload" href="../myblog/node_modules/diy-font/hexo-theme-volantis/source/AaGuDianKeBenSong.ttf" as="font" type="font/ttf" crossorigin="anonymous">
-<link rel="preload" href="../myblog/node_modules/diy-font/hexo-theme-volantis/source/AaGuDianKeBenSong.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+  <link rel="preload" href="../myblog/node_modules/hexo-theme-volantisdiy-font/source/AaGuDianKeBenSong.ttf" as="font" type="font/ttf" crossorigin="anonymous">
+<link rel="preload" href="../myblog/node_modules/hexo-theme-volantis/diy-font/source/AaGuDianKeBenSong.ttf" as="font" type="font/ttf" crossorigin="anonymous">
 
   <!-- feed -->
   <!-- 页面元数据 -->
@@ -870,14 +870,14 @@ button {
 }
 @font-face {
   font-family: 'AaGuDianKeBenSong';
-  src: url("../myblog/node_modules/diy-font/hexo-theme-volantis/source/AaGuDianKeBenSong.ttf");
+  src: url("../myblog/node_modules/hexo-theme-volantis/diy-font/source/AaGuDianKeBenSong.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
   font-family: 'AaGuDianKeBenSong';
-  src: url("../myblog/node_modules/diy-font/hexo-theme-volantis/source/AaGuDianKeBenSong.ttf");
+  src: url("../myblog/node_modules/hexo-theme-volantisdiy-font/source/AaGuDianKeBenSong.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
@@ -1792,7 +1792,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1693907069675),
+    lastupdate: new Date(1693918427325),
     sidebar: {
       for_page: ["blogger","category","tagcloud","donate","webinfo"],
       for_post: ["toc"],
@@ -1802,7 +1802,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
           friendlyShow: true
         },
         runtime: {
-          data: "2020/01/01",
+          data: "2023/09/05",
           unit: "天"
         }
       }
@@ -2714,9 +2714,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
       
         
-          <div><span id="busuanzi_container_site_pv">
-  本站总访问量<span id="busuanzi_value_site_pv"></span>次
-</span>
+          <div><p><span id="lc-sv">本站总访问量为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 次</span> <span id="lc-uv">访客数为 <span id='number'><i class="fa-solid fa-loader fa-spin fa-fw" aria-hidden="true"></i></span> 人</span></p>
 </div>
         
       
