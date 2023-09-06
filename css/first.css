@@ -816,14 +816,14 @@ button {
 }
 @font-face {
   font-family: 'AaGuDianKeBenSong';
-  src: url("../myblog/node_modules/hexo-theme-volantis/diy-font/source/AaGuDianKeBenSong.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/hanaishii/hanaishii.github.io@main/diy-font/AaGuDianKeBenSong.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
 }
 @font-face {
   font-family: 'AaGuDianKeBenSong';
-  src: url("../myblog/node_modules/hexo-theme-volantisdiy-font/source/AaGuDianKeBenSong.ttf");
+  src: url("https://cdn.jsdelivr.net/gh/hanaishii/hanaishii.github.io@main/diy-font/AaGuDianKeBenSong.ttf");
   font-weight: 'normal';
   font-style: 'normal';
   font-display: swap;
